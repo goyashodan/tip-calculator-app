@@ -17,5 +17,11 @@
 /* || Body Properties || */
 
 body {
+    margin: 0;
     background-color: var(--light-grayish-cyan-one);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
