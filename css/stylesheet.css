@@ -25,3 +25,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+#calc-container {
+    display: flex;
+    background-color: var(--white-custom);
+    width: 920px;
+    border-radius: 25px;
+    justify-content: center;
+    margin-top: 75px;
+}
