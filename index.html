@@ -11,29 +11,29 @@
     <!-- Calculator Body -->
     <div id="calc-container">
         <!-- Tip Submission -->
-        <div class="inner-box" id="tip-submission-container">
+        <div class="inner-box inner-box-left" id="tip-submission-container">
             <p class="head-labels">Bill</p>
             <div class="bot-margin">
                 <img class="icon" src="/images/icon-dollar.svg">
-                <input>
+                <input class="gen-input" placeholder="0">
             </div>
             <p class="head-labels">Select Tip %</p>
             <div class="bot-margin" id="tip-percentage-container">
-                <div>5%</div>
-                <div>10%</div>
-                <div>15%</div>
-                <div>25%</div>
-                <div>50%</div>
-                <div>Custom</div>              
+                <div class="tip-box colored-box left-button">5%</div>
+                <div class="tip-box colored-box center-button">10%</div>
+                <div class="tip-box colored-box right-button">15%</div>
+                <div class="tip-box colored-box left-button">25%</div>
+                <div class="tip-box colored-box center-button">50%</div>
+                <input class="gray-box right-button" placeholder="Custom">            
             </div>
             <p class="head-labels">Number of People</p>
             <div>
                 <img class="icon" src="/images/icon-person.svg">
-                <input>
+                <input class="gen-input" placeholder="0">
             </div>
         </div>
         <!-- Tip Output -->
-        <div class="inner-box" id="tip-output-container">
+        <div class="inner-box inner-box-right" id="tip-output-container">
             <div id="tip-amount">
                 <div>
                     <p>Tip Amount</p>

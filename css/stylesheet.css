@@ -27,8 +27,8 @@ body {
     min-height: 100vh;
 }
 
-input {
-    width: 100%;
+.gen-input {
+    width: 95%;
     height: 20px;
     font-size: 1rem;
     font-weight: 700;
@@ -58,10 +58,18 @@ p {
 
 .inner-box {
     width: 100%;
-    margin: 30px;
-    padding: 15px;
+    padding: 15px 0px 15px 15px;
     border-radius: 15px;
 }
+
+.inner-box-left {
+    margin: 30px 20px 30px 30px;
+}
+
+.inner-box-right {
+    margin: 30px 30px 30px 20px;
+}
+
 
 #tip-output-container {
     background-color: var(--very-dark-cyan);
@@ -82,4 +90,51 @@ p {
 
 .bot-margin {
     margin-bottom: 30px;
+}
+
+#tip-percentage-container {
+    display: grid;
+    grid-template-columns: 132px 132px 132px;
+}
+
+.tip-box {
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.colored-box {
+    background-color: var(--very-dark-cyan);
+    color: var(--white-custom);
+}
+
+.gray-box {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--light-grayish-cyan-two);
+    color: var(--dark-grayish-cyan-one);
+    text-align: center;
+    font-weight: 700;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: "Space Mono", monospace;
+}
+
+.gray-box::placeholder {
+    color: var(--dark-grayish-cyan-one);
+    opacity: 1;
+}
+
+.left-button {
+    margin: 5px 5px 5px 0px;
+}
+
+.center-button {
+    margin: 5px 5px 5px 5px;
+}
+
+.right-button {
+    margin: 5px 0px 5px 5px;
 }
