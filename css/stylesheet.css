@@ -185,4 +185,12 @@ p {
 
 #reset {
     margin-top: auto;
+    background-color: var(--strong-cyan);
+    border: none;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    color: var(--very-dark-cyan);
+    font-weight: 700;
 }
