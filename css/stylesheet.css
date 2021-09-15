@@ -59,6 +59,7 @@ p {
 .inner-box {
     width: 100%;
     margin: 30px;
+    padding: 15px;
     border-radius: 15px;
 }
 
@@ -70,4 +71,15 @@ p {
     position: absolute;
     padding-top: 11px;
     padding-left: 20px;
+}
+
+.head-labels {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--dark-grayish-cyan-one);
+    padding-bottom: 5px;
+}
+
+.bot-margin {
+    margin-bottom: 30px;
 }
