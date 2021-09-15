@@ -15,7 +15,7 @@
 }
 
 
-/* || Body Properties || */
+/* || Element Properties || */
 
 body {
     margin: 0;
@@ -29,6 +29,20 @@ body {
 
 input {
     width: 100%;
+    height: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    color: var(--very-dark-cyan);
+    background-color: var(--light-grayish-cyan-two);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+}
+
+p {
+    margin: 0;
 }
 
 /* || IDs & Classes || */
@@ -50,4 +64,10 @@ input {
 
 #tip-output-container {
     background-color: var(--very-dark-cyan);
+}
+
+.icon {
+    position: absolute;
+    padding-top: 11px;
+    padding-left: 20px;
 }
