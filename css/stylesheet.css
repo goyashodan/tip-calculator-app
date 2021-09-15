@@ -14,6 +14,7 @@
     --white-custom: hsl(0, 0%, 100%);
 }
 
+
 /* || Body Properties || */
 
 body {
@@ -26,6 +27,12 @@ body {
     min-height: 100vh;
 }
 
+input {
+    width: 100%;
+}
+
+/* || IDs & Classes || */
+
 #calc-container {
     display: flex;
     background-color: var(--white-custom);
@@ -33,4 +40,14 @@ body {
     border-radius: 25px;
     justify-content: center;
     margin-top: 75px;
+}
+
+.inner-box {
+    width: 100%;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#tip-output-container {
+    background-color: var(--very-dark-cyan);
 }
