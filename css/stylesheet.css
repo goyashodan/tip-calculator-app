@@ -50,23 +50,24 @@ p {
 #calc-container {
     display: flex;
     background-color: var(--white-custom);
-    width: 920px;
+    width: 860px;
     border-radius: 25px;
     justify-content: center;
     margin-top: 75px;
 }
 
 .inner-box {
-    width: 100%;
     padding: 15px 0px 15px 15px;
     border-radius: 15px;
 }
 
 .inner-box-left {
+    width: 42%;
     margin: 30px 20px 30px 30px;
 }
 
 .inner-box-right {
+    width: 58%;
     margin: 30px 30px 30px 20px;
 }
 
@@ -94,7 +95,7 @@ p {
 
 #tip-percentage-container {
     display: grid;
-    grid-template-columns: 132px 132px 132px;
+    grid-template-columns: 120px 120px 120px;
 }
 
 .tip-box {
