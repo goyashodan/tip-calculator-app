@@ -138,3 +138,50 @@ p {
 .right-button {
     margin: 5px 0px 5px 5px;
 }
+
+/* || Tip Output || */
+
+#tip-output-container {
+    padding: 50px 40px 35px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tip-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#tip-per-person {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.head-labels-output {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--white-custom);
+    padding-bottom: 5px;
+}
+
+.head-labels-sub {
+    font-size: 0.5rem;
+    font-weight: 700;
+    color: var(--dark-grayish-cyan-two);
+}
+
+.output {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--strong-cyan);
+}
+
+#reset {
+    margin-top: auto;
+}
