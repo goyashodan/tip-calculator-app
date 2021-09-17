@@ -194,3 +194,13 @@ p {
     color: var(--very-dark-cyan);
     font-weight: 700;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
